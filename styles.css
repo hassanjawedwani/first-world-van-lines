@@ -14,6 +14,35 @@ body {
   background-color: #2A2E7C; 
 }
 
+.text-custom-darkBlue {
+  color:  #2A2E7C; 
+}
+
 .custom-font13 {
   font-size: 13px;
+}
+
+.custom-font-18 {
+  font-size: 18px;
+}
+
+.custom-letterSpacing {
+  letter-spacing: 2.2px;
+}
+
+.custom-letterSpacing-0-6{
+  letter-spacing: 0.6px;
+}
+
+.custom-height-200 {
+  height: 80px;
+}
+
+.custom-height-100 {
+  height: 100px;
+}
+
+
+.custom-light-white {
+  background-color: #F5F5F5;;
 }

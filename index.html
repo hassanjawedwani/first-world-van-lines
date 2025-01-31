@@ -20,13 +20,93 @@
   </div>
 
   <!-- Navbar  -->
-  <div class="container bg-primary">
-    <nav class=" navbar navbar-expand-lg">
-      <a class="navbar-brand" href="#">
-        <img src="assets/logo.jpg" alt="logo"/>
-      </a>
-    </nav>
+  <nav class="navbar navbar-expand-lg " >
+    <div class="container d-flex flex-column align-items-stretch">
+      <div class=" d-flex flex-row justify-content-between">
+
+        <!-- email  -->
+        <div class="d-none d-lg-flex flex-row gap-3 pt-3">
+          <div class="flex justify-content-center align-items-center ">
+            <i class="bi bi-envelope-open border rounded-circle p-2 text-custom-darkBlue  custom-light-white fs-3 "></i>
+          </div>
+          <div>
+            <h5 class="text-custom-darkBlue  m-0 custom-letterSpacing-0-6 fw-semibold">info@firstworldvanlines.com</h5>
+            <p class="text-secondary ">Email Address</p>
+          </div>
+        </div>
+
+        <div class="d-flex gap-2">
+          <!-- burger button for navbar -->
+          <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-list fs-1 fw-bold"></i>
+          </button>
+          <!-- Logo -->
+          <img class="custom-height-200" src="assets/logo.jpg" alt="logo" />
+        </div>
+
+        <!-- phone no  -->
+        <div class="d-none d-lg-flex flex-row gap-3 pt-3">
+          <div class=" flex justify-content-center align-items-center ">
+            <i class="bi bi bi-telephone-plus-fill border rounded-circle p-2 text-custom-darkBlue  custom-light-white fs-3 "></i>
+          </div>
+          <div>
+            <h5 class="text-custom-darkBlue m-0 custom-letterSpacing-0-6 fw-semibold">+844-201-8316</h5>
+            <p class="text-secondary ">Phone Line</p>
+          </div>
+        </div>
+
+        <!-- 2nd navbar burger button-->
+        <div class="d-flex">
+          <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent2nd" aria-controls="navbarSupportedContent2nd" aria-expanded="false" aria-label="Toggle navigation2nd">
+            <i class="bi bi-three-dots-vertical fs-1 fw-bold"></i>
+          </button>
+        </div>
+      </div>
+  </nav>
+
+  <!-- navbar   -->
+  <div class="collapse navbar-collapse my-4" id="navbarSupportedContent">
+    <ul class="navbar-nav container d-flex justify-content-center custom-font13 fw-bold custom-letterSpacing nav-underline pt-4 pt-lg-0">
+      <li class="nav-item">
+        <a class="nav-link link-secondary" href="#">HOME</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link link-secondary" href="#">SERVICES</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link link-secondary" href="#">ABOUT US</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link link-secondary" href="#">CONTACTS</a>
+      </li>
+    </ul>
   </div>
+
+    <!-- 2nd navbar   -->
+  <div class=" collapse navbar-collapse" id="navbarSupportedContent2nd">
+    <div class="navbar-nav container d-flex flex-column custom-letterSpacing pt-4 pt-lg-0">
+      <div class="d-flex flex-row gap-3 pt-3">
+        <div class="flex justify-content-center align-items-center ">
+          <i class="bi bi-envelope-open border rounded-circle p-2 text-custom-darkBlue  custom-light-white fs-3 "></i>
+        </div>
+        <div>
+          <h5 class="text-custom-darkBlue  m-0 custom-letterSpacing-0-6 fw-semibold">info@firstworldvanlines.com</h5>
+          <p class="text-secondary ">Email Address</p>
+        </div>
+      </div>
+      <div class="d-flex flex-row gap-3 pt-3">
+        <div class=" flex justify-content-center align-items-center ">
+          <i class="bi bi bi-telephone-plus-fill border rounded-circle p-2 text-custom-darkBlue  custom-light-white fs-3 "></i>
+        </div>
+        <div>
+          <h5 class="text-custom-darkBlue m-0 custom-letterSpacing-0-6 fw-semibold">+844-201-8316</h5>
+          <p class="text-secondary ">Phone Line</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+   
 
 </body>
 </html>
