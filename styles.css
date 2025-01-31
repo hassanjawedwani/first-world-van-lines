@@ -6,8 +6,9 @@
   margin: 0;
 }
 
-body {
+html, body {
   font-family: 'Poppins', sans-serif;
+  height: 100%;
 }
 
 .custom-darkblue {
@@ -46,3 +47,15 @@ body {
 .custom-light-white {
   background-color: #F5F5F5;;
 }
+
+.custom-font-size-70 {
+  font-size: 70px;
+}
+
+.hero-section {
+  background-image: url("assets/header-image2.webp");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom;
+}
+
