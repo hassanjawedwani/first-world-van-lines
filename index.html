@@ -8,7 +8,7 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
-
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"/>
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
@@ -36,7 +36,7 @@
           </div>
         </div>
 
-        <div class="d-flex gap-2">
+        <div class="d-flex gap-2"> 
           <!-- burger button for navbar -->
           <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <i class="bi bi-list fs-1 fw-bold"></i>
@@ -107,15 +107,300 @@
     </div>
   </div>
 
-  <!-- nav completed -->
 
   <!-- hero section start  -->
-  <section class="container-fluid h-75 bg-primary hero-section d-flex flex-column justify-content-center align-items-center text-white">
+  <section class="container-fluid h-75 hero-section d-flex flex-column justify-content-center align-items-center text-white">
       <h3 class="fs-5">INTERSTATE MOVERS</h3>
       <h1 class="custom-font-size-70 text-center">Safe and Trusted Moving Services</h1>
       <button class="btn btn-danger py-3 px-5 border-0 rounded-0">GET A QUOTE</button>
   </section>
+
+  <!-- Features  -->
+  <div class="d-flex flex-row gap-4 flex-wrap justify-content-center py-5 custom-light-white">
+        
+    <div class="card p-3" style="width: 24rem;">
+      <img src="assets/localmoving.webp" class="card-img-top pb-4" alt="local moving source">
+      <div class="card-body p-0">
+        <h5 class="card-title py-4 fw-bold text-custom-darkBlue">Local Moving</h5>
+        <p class="card-text">We are professionals in local moves of any kind. Our professional movers can handle any size move, and we're eager to demonstrate how we can get you where you need to go.If you use our moving company your belongings will be handled with the utmost care and that the job will be completed to your satisfaction because we have all the tools necessary.</p>
+        <a href="#" class="btn btn-primary text-danger bg-white border-0 fw-bold custom-letterSpacing p-0">Read More</a>
+      </div>
+    </div>
+
+    <div class="card p-3" style="width: 24rem;">
+      <img src="assets/longdistance.webp" class="card-img-top pb-4" alt="long distance source">
+      <div class="card-body p-0">
+        <h5 class="card-title py-4 fw-bold text-custom-darkBlue">Long Distance Moving</h5>
+        <p class="card-text">Choosing a reliable moving company is crucial for a stress-free long-distance relocation. Your items need to be packed, loaded, transported, and unloaded quickly, so hire a company with trained professionals. Above all else, you want to guarantee the safety and security of your belongings.</p>
+        <a href="#" class="btn btn-primary text-danger bg-white border-0 fw-bold custom-letterSpacing p-0">Read More</a>
+      </div>
+    </div>
+    
+    <div class="card p-3" style="width: 24rem;">
+      <img src="assets/militarymoving.webp" class="card-img-top pb-4" alt="militarymoving">
+      <div class="card-body p-0">
+        <h5 class="card-title py-4 fw-bold text-custom-darkBlue">Military Moving</h5>
+        <p class="card-text">Forces in the field need to be well-prepared even when working under pressure. Our movers will work with you to create a custom plan and timeline for your relocation based on your needs. First World Van Lines' military relocation services can make the stress of frequent moves easier on you and your loved ones.</p>
+        <a href="#" class="btn btn-primary text-danger bg-white border-0 fw-bold custom-letterSpacing p-0">Read More</a>
+      </div>
+    </div>
+
+  </div>
+
+
+
+  <!-- Interstate moving company  -->
+  <div class="p-5 row container">
+
+    <div class="p-5 col-lg-6">
+      <h5 class="custom-letterSpacing under text-danger text-decoration-underline" style="text-underline-offset: 5px; font-size: 16px;">Interstate Moving Company</h5>
+      <h3 class="text-custom-darkBlue fw-bold  mt-3 mb-5 lh-xl" style="font-size: 50px">Your Trustworthy Overseas and International Movers</h3>
+      <div>
+        <img src="assets/download.jpg" alt="" class="img-fluid"  style="width: 530px;"/>
+      </div>
+    </div>
+
+    <div class="p-5 col-lg-6">
+      <div>
+        <img src="assets/aboutus1.webp" alt="" class="img-fluid"  style="width: 530px;"/>
+      </div>
+      <p style="margin-top: 100px; max-width: 500px; line-height: 30px; font-weight: 500;">In every step of your long-distance or international move, First World Van Lines is there to help. Our international relocation services reach over 140 nations, including the whole continental United States. As a moving company, we have gained notoriety both locally and globally. Our comprehensive moving service includes expert packing, loading, crating, and other specialty moving services. Get a free and fast quote from us whenever you need it.</p>
+    </div>
+
+  </div>
+
+
+
+  <!-- Moving services  -->
+
+  <h2 class="text-custom-darkBlue text-center  custom-light-white m-0 pt-5" style="font-size: 50px;">Moving Services</h2>
+  <div class="d-flex flex-row gap-4 flex-wrap justify-content-center py-5 custom-light-white">
+    
+    <div class="card p-3" style="width: 18rem;">
+      <img src="assets/commercialmove.webp" class="card-img-top pb-4" alt="commercialmove">
+      <div class="card-body p-0">
+        <h5 class="card-title py-4 fw-bold text-custom-darkBlue">Commercial Moving</h5>
+        <p class="card-text">Professional movers can ensure a smooth, timely, and trouble-free relocation. Is it time for an office move, and you're wondering if a commercial moving company is what you need to get everything where it needs to be? Is it important for you to find a business moving company that can manage both large and small jobs?</p>
+        <a href="#" class="btn btn-primary text-danger bg-white border-0 fw-bold custom-letterSpacing p-0">Read More</a>
+      </div>
+    </div>
+
+    <div class="card p-3" style="width: 18rem;">
+      <img src="assets/corporatemove.webp" class="card-img-top pb-4" alt="corporatemove">
+      <div class="card-body p-0">
+        <h5 class="card-title py-4 fw-bold text-custom-darkBlue">Corporate Moving</h5>
+        <p class="card-text">First Van Lines act as an extension of your relocation team by taking care of move management and other administrative tasks, freeing you up to focus on other important aspects of your job. With our aid, your staff will arrive at their destinations on time and within budget, speeding up the transfer into their new responsibilities.</p>
+        <a href="#" class="btn btn-primary text-danger bg-white border-0 fw-bold custom-letterSpacing p-0">Read More</a>
+      </div>
+    </div>
+    
+    <div class="card p-3" style="width: 18rem;">
+      <img src="assets/storagemove.webp" class="card-img-top pb-4" alt="storagemove">
+      <div class="card-body p-0">
+        <h5 class="card-title py-4 fw-bold text-custom-darkBlue">Moving and Storage</h5>
+        <p class="card-text">First World Van Lines greatest strengths is the ease of use it provides. Your moving company means you won't have to waste time looking for the perfect moving truck for your move only to find out it won't fit your belongings. We deliver precisely the right number of containers for guaranteeing that you never overpay for storage space you don't actually need.</p>
+        <a href="#" class="btn btn-primary text-danger bg-white border-0 fw-bold custom-letterSpacing p-0">Read More</a>
+      </div>
+    </div>
+    
+    <div class="card p-3" style="width: 18rem;">
+      <img src="assets/antiquemove.webp" class="card-img-top pb-4" alt="antiquemove">
+      <div class="card-body p-0">
+        <h5 class="card-title py-4 fw-bold text-custom-darkBlue">Antique and Piano</h5>
+        <p class="card-text">Art, antiques, and antiquities are as delicate as pianos, so they need to be moved with the same care when being packed and transported. Companies that specialize in transporting artwork will use climate-controlled, air-ride equipped trailers and warehouses. Fine art and antiques may be transported with plenty of padding and wooden boxes.</p>
+        <a href="#" class="btn btn-primary text-danger bg-white border-0 fw-bold custom-letterSpacing p-0">Read More</a>
+      </div>
+    </div>
+
+  </div>
+
+
+  <!-- Request Quote  -->
+  <div class="min-h-75 bg-primary myRequestQuote  p-5">
+    <div class="container row m-auto ">
+    <div class="column col-lg-6">
+      <div class=" bg-white " style="border-radius: 20px">
+        <h2 class="custom-darkblue text-white text-center py-4 " style="font-size: 50px; font-weight: semibold; border-radius: 20px 20px 0 0; ">Request A Quote</h2>
+
+        <div class="px-5 py-2">
+          <h4 class="text-secondary">Moving Details</h4>
+
+          <div class="row">
+            <div class="column col-lg-6 ">
+              <label for="movingLocation" class="fw-semibold">Moving From</label><br />
+              <input type="text" id="movingLocation" class="w-75 p-2" placeholder="city, state"/>
+            </div>
+            <div class="column col-lg-6 ">
+              <label for="movingToLocation" class="fw-semibold">Moving To</label><br />
+              <input type="text" id="movingToLocation" class="w-75 p-2" placeholder="city, state"/>
+            </div>
+          </div>
+
+          <div class="row mt-3">
+            <div class="column col-lg-6 ">
+              <label for="bedrooms" class="fw-semibold">Moving Size</label><br />
+              <select  id="bedrooms" class="w-75 p-2">
+                <option value="0">Studio</option>
+                <option value="1">1 Bedroom</option>
+                <option value="2">2 Bedroom</option>
+                <option value="3">3 Bedroom</option>
+              </select>
+            </div>
+            <div class="column col-lg-6 ">
+              <label for="movingDate" class="fw-semibold">Moving Date</label><br />
+              <input type="date" id="movingDate" class="w-75 p-2" placeholder="city, state"/>
+            </div>
+          </div>
+          
+        </div>
+
+        
+        <div class="pt-4 px-5 pb-5">
+          <h4 class="text-secondary">Personal Details</h4>
+
+          <div class="row">
+            <div class="column col-lg-6 ">
+              <label for="fullname" class="fw-semibold">Full Name</label><br />
+              <input type="text" id="fullname" class="w-75 p-2" placeholder="Enter Full Name"/>
+            </div>
+            <div class="column col-lg-6 ">
+              <label for="email" class="fw-semibold">Email</label><br />
+              <input type="email" id="email" class="w-75 p-2" placeholder="Enter Email"/>
+            </div>
+          </div>
+
+          <div class="row mt-3">
+            <div class="column col-lg-6 ">
+              <label for="phoneno" class="fw-semibold">Phone No</label><br />
+              <input type="phone" id="phone" class="w-75 p-2" placeholder="Enter Phone No."/>
+              
+            </div>
+            <div class="column col-lg-6 ">
+              <br />
+              <button type="button"  class="w-75 p-2 custom-darkblue text-white fw-bold custom-letterSpacing" >Get Quote</button>
+            </div>
+          </div>
+          
+        </div>
+      </div>
+    </div>
+
+    <div class="column col-lg-6 mt-3 mt-lg-0">
+      <div class="d-flex flex-column gap-3 justify-content-center h-100">
+        <div class="quote-highlight p-4">
+          <p class="fw-bold text-white"><span class="bg-danger p-2 rounded-circle me-4">01</span>Get free quote only in few steps</p>
+        </div>
+        <div class="quote-highlight p-4">
+          <p class="fw-bold text-white"><span class="bg-danger p-2 rounded-circle me-4">02</span>Enter your information</p>
+        </div>
+        <div class="quote-highlight p-4">
+          <p class="fw-bold text-white"><span class="bg-danger p-2 rounded-circle me-4">03</span>Give proper details to contact You</p>
+        </div>
+        <div class="quote-highlight p-4">
+          <p class="fw-bold text-white"><span class="bg-danger p-2 rounded-circle me-4">04</span>Our management will contact you within 24 hours</p>
+        </div>
+      </div>
+    </div>
+    </div>
+  </div>
+
+  
+  <!-- Why Choose us -->
+  <div class="spacer"></div>
+  <div class="container">
+    <div class="row">
+      <div class="column col-lg-6 custom-darkblue mt-5 mt-lg-0 p-0 order-2 order-lg-1">
+        <div>
+          <img src="assets/download (3).jpg" alt="" style="width: 90%;" />
+        </div>
+        <div class="p-4 d-flex flex-row align-items-center gap-5">
+          <p class="fw-semibold text-white">Do you have any question?</p>
+          <button style="padding: 10px; border-radius: 30px; background-color: white;"> > </button>
+        </div>
+      </div>
+
+      <div class="column col-lg-6 text-right ps-5 order-1 order-lg-2">
+        <h5 class="custom-letterSpacing under text-danger text-decoration-underline" style="text-underline-offset: 5px; font-size: 16px;">Why Chose First World Van Lines</h5>
+        <p style="margin-top: 20px; max-width: 500px; line-height: 30px; font-weight: 500;">With our dedication to offering the most comprehensive door-to-door service to our customers, we are able to relocate clients anywhere in the world while maintaining the best quality service from departure to arrival. Our commitment to excellence is shown in involvement in several prestigious trade associations.</p>
+
+        <div class="d-flex flex-column gap-5 justify-content-center mt-5 ">
+          <div class="custom-light-white p-4">
+            <p class="fw-bold text-custom-darkBlue  "><span class="bg-danger p-2 rounded-circle me-4">01</span>Full door-to-door service with unmatched flexibility</p>
+          </div>
+          <div class=" p-4">
+            <p class="fw-bold text-custom-darkBlue "><span class="bg-danger p-2 rounded-circle me-4">02</span>Full door-to-door service with unmatched flexibility</p>
+          </div>
+          <div class="custom-light-white p-4">
+            <p class="fw-bold text-custom-darkBlue "><span class="bg-danger p-2 rounded-circle me-4">03</span>Full door-to-door service with unmatched flexibility</p>
+          </div>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+  <div class="spacer"></div>
+
   
 
+  <!-- Testimonials  -->
+  
+
+
+
+  <!-- footer  -->
+  <div class="container text-custom-darkBlue">
+    <br /><br />
+    <div class="row">
+      <div class="col col-lg-3 d-flex flex-column gap-2">
+        <div class="d-flex justify-content-center">
+        <img src="assets/logo.jpg" alt="logo" class="img-fluid" />
+        </div>  
+        <div class="d-flex justify-content-center gap-4 fs-4 text-custom-darkBlue">
+          <i class="bi bi-twitter"></i>
+          <i class="bi bi-facebook"></i>
+          <i class="bi bi-linkedin"></i>
+          <i class="bi bi-youtube"></i>
+        </div>
+        <p class="text-center text-custom-darkBlue"><b>Tel:</b> +844-201-8316</p>
+      </div>
+
+      <div class="col col-lg-3">
+        <h3 class="fw-bold ">Our Contacts</h3>
+        <p>First World Van Lines Ltd.
+          8890 RoadHill St., Suite 100
+          North Downtown, NY 82153</p>
+        <p class="m-0 p-0"><b>Email:</b></p>
+        <p>info@firstworldvanlines.com</p>
+      </div>
+      <div class="col col-lg-3">
+        <h3 class="fw-bold ">Explore</h3>
+        <p class="m-0 mb-1">About</p>
+        <p>Services</p>
+      </div>
+      <div class="col col-lg-3">
+        <h3 class="fw-bold ">Legal</h3>
+        <p class="m-0 mb-1">Contact</p>
+        <p class="m-0 mb-1">Term of Use</p>
+        <p>Privacy Policy</p>
+      </div>
+    </div>
+    <hr/>
+    <p class="text-center text-custom-darkBlue fw-semibold">Copyright &copy; 2025 by First World Van Lines</p>
+  </div>
+
+  <!-- <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+  <script>
+    const swiper = new Swiper('.swiper', {
+      direction: 'horizontal',
+      loop: true,
+      speed: 600,
+      slidesPerView: 1,
+      spaceBetween: 20,
+      autoplay: {
+        delay: 2000,
+        disableOnInteraction: false,
+      },
+    });
+  </script> -->
 </body>
 </html>
